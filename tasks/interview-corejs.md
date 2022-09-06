@@ -1,138 +1,128 @@
-# CoreJS Interview #2
-- Passing the Corejs Interview #2 is mandatory for obtaining the RS School certificate.
-- The students are not allowed to be interviewed by their current mentors.
-- The students without a mentor can also register for an interview.
-- Students should contact the interviewer themselves. Contact details will be available on the RS APP. **Note:** Students should consider that the mentor can be busy (vacation, business trip, workload, etc.), so please get in touch with him as soon as possible.
-- At the mentor's request, the interview can take place online or face-to-face.
-- Preferable interview duration is 45-90 minutes.
-- During the interview mentor:
-  - asks questions;
-  - gets answers;
-  - adds/corrects/explains/gives the right answer, if necessary.
-- After the interview mentor have to fill in the feedback form (RS APP > Interviews)  
-## Question examples:
+```diff
+- have no idea
++ kinda good
+! to learn in 4 days
+# text in gray
+@@ text in purple (and bold)@@
 
-### JavaScript:
+1. JavaScript:
 
-- #### Advanced Expressions
+Advanced Expressions
 
-  - Hoisting
-  - Temporal dead zone
++  Hoisting
++  Temporal dead zone
 
-- #### Objects Built-in methods.
+ Objects Built-in methods.
 
-  - Know static Object methods
-  - Property flags & descriptors (student is able to set property via Object. defineProperty)
-  - Know how to create iterable objects, Symbol.iterator usage `(optional)`
++  Know static Object methods
+!  Property flags & descriptors (student is able to set property via Object. defineProperty)
+-  Know how to create iterable objects, Symbol.iterator usage `(optional)`
 
-- #### Object as Hash.
+  Object as Hash.
 
-  - Be able to loop through Object keys
+! Be able to loop through Object keys
 
-- #### Arrays Built-in methods
+ Arrays Built-in methods
 
-  - Know how to copy array part
-  - Know how to flatten nested array
+! Know how to copy array part
+! Know how to flatten nested array
 
-- #### Arrays Iterating, Sorting, Filtering
+ Arrays Iterating, Sorting, Filtering
 
-  - Be able to custom sorting for Array
-  - Be able to filter Array elements
+! Be able to custom sorting for Array
++ Be able to filter Array elements
 
-- #### Functional Scope
+ Functional Scope( ! let var block watch)
 
-  - Know global scope and functional scope
-  - Know variables visibility areas
-  - Understand nested scopes and able work with them
++ Know global scope and functional scope
++ Know variables visibility areas
++ Understand nested scopes and able work with them
 
-- #### Functions Parameters / Arguments
+Functions Parameters / Arguments
 
-  - Know how to define Function parameters
-  - Know difference between parameters passing by value and by reference
-  - Know how to handle dynamic amount of Function parameters
+! Know how to define Function parameters
++ Know difference between parameters passing by value and by reference
++ Know how to handle dynamic amount of Function parameters
 
-- #### ECMAScript Intermediate
+ECMAScript Intermediate
 
-  - Function default parameters
-  - ECMA script modules
-  - Know how to use spread operator for Function arguments
-  - Be able to compare `arguments` and `rest parameters`
-  - Spread operator for Array
-  - Understand and able to use spread operator for Array concatenation
-    Destructuring assignment
-  - Be able to discover destructuring assignment concept
-  - Understand variables and Function arguments destructuring assignment
-  - String templates
-  - Know how `for..of` loop works `(optional)`
+! Function default parameters
+! ECMA script modules
++ Know how to use spread operator for Function arguments
+! Be able to compare `arguments` and `rest parameters`
++ Spread operator for Array
++ Understand and able to use spread operator for Array concatenation
++ Destructuring assignment
+! Be able to discover destructuring assignment concept
+! Understand variables and Function arguments destructuring assignment
+! String templates
+! Know how `for..of` loop works `(optional)`
 
-- #### Advanced Functions
+Advanced Functions
 
-  - `this` scope
-  - Reference Type & losing `this`
-  - Understand difference between function and method
-  - Understand how `this` works, realize `this` possible issues
-  - Manage `this` scope
-  - Be able to replace `this` scope
-  - Be able to use `call` and `apply` Function built-in methods
+!`this` scope
+! Reference Type & losing `this`
+! Understand difference between function and method
++ Understand how `this` works, realize `this` possible issues
++ Manage `this` scope
+! Be able to replace `this` scope
++ Be able to use `call` and `apply` Function built-in methods
 
-- #### Functional Patterns
+ Functional Patterns
 
-  - Immediately invoked functional expression `(IIFE)` `(optional)`
-  - Know IIFE pattern `(optional)`
-  - Callback (Function as argument)
-  - Know callback pattern
-  - Understand callback limitations (callback hell) `(optional)`
-  - Binding, binding one function twice
-  - Know how to bind `this` scope to function
-  - Carrying and partial functions
++ Immediately invoked functional expression `(IIFE)` `(optional)`
+! Know IIFE pattern `(optional)`
++ Callback (Function as argument)
+! Know callback pattern
++ Understand callback limitations (callback hell) `(optional)`
+! Binding, binding one function twice
++ Know how to bind `this` scope to function
+! Carrying and partial functions
 
-- #### Network requests
+Network requests
 
-  - `Fetch` (with usage)
-  - `XMLHTTPRequest` (concept) `(optional)`
-  - `WebSocket` (concept) `(optional)`
++ `Fetch` (with usage)
+- `XMLHTTPRequest` (concept) `(optional)`
+- `WebSocket` (concept) `(optional)`
 
-- #### Web components
+Web components
 
-  - Web components, shadow DOM (concept) `(optional)`
+! Web components, shadow DOM (concept) `(optional)`
 
-- #### Date & time
+Date & time
 
-  - Timezones `(optional)`
-  - Internationalization js (Intl) `(optional)`
+- Timezones `(optional)`
+! Internationalization js (Intl) `(optional)`
 
-- #### Closures Advanced
+Closures Advanced
 
-  - Context (lexical environment)
-  - Understand function creation context (lexical environment)
-  - Be able to explain difference between scope and context
-  - Inner/outer lexical environment
-  - Understand lexical environment traversing mechanism
-  - Understand connection between function and lexical environment
+! Context (lexical environment)
+! Understand function creation context (lexical environment)
+! Be able to explain difference between scope and context
+! Inner/outer lexical environment
+- Understand lexical environment traversing mechanism
+- Understand connection between function and lexical environment
 
-- #### Object Oriented Programming
+Object Oriented Programming
 
-  - `new` keyword
-  - Understand how `new` keyword works
-  - Function constructor
-  - Know function constructor concept
-  - Able to create constructor functions
-  - Public, private, static members
-  - Know how to create public members
-  - Know how to create private members
-  - Know how to create static members
-  - Understand OOP emulation patterns and conventions
++ `new` keyword
+! Understand how `new` keyword works
++ Function constructor
+! Know function constructor concept
+! Able to create constructor functions
+! Public, private, static members(Know how to create)
+- Understand OOP emulation patterns and conventions
 
-- #### Prototypal Inheritance Basics
+Prototypal Inheritance Basics
 
-  - `__proto__` property
-  - Understand `__proto__` object property
-  - Able to use [Object.create] and define `__proto__` explicitly
-  - Able to set / get object prototype `(optional)`
-  - `prototype` property
-  - Know function `prototype` property
-  - Understand dependency between function constructor `prototype` and instance `__proto__`
-  - Able to create 'class' methods using function `prototype` property 
+! `__proto__` property
+- Understand `__proto__` object property
++ Able to use [Object.create] and define `__proto__` explicitly
+! Able to set / get object prototype `(optional)`
+! `prototype` property
+! Know function `prototype` property
+- Understand dependency between function constructor `prototype` and instance `__proto__`
+- Able to create 'class' methods using function `prototype` property 
 
 - #### ECMAScript Classes
 
@@ -265,3 +255,4 @@
   Example:
   `periodOutput(100) -> 100(after 100 ms), 200(after 100 ms), 300(after 100 ms), ...`
 - `extendedPeriodOutput(period)` method should output in the console once per period how mach time has passed since the first function call and then increase the period. Example: `// extendedPeriodOutput(100) -> 100(after 100 ms), 200(after 200 ms), 300(after 300 ms)`
+```
